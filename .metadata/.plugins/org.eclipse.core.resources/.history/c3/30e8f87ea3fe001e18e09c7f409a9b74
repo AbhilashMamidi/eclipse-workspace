@@ -1,0 +1,10 @@
+package new2024;
+
+public class PracticeString {
+    public static void main(String[] args) {
+	 String name="Naveen Reddy";
+	 String name2=new String("Abhilash");
+	 char character=name2.charAt(3);
+     System.out.println(name2.concat("mamidi"));
+ } 
+}

@@ -1,0 +1,26 @@
+package new2024;
+import java.util.Scanner;
+
+public class Practice_22july {
+  public static void main(String[] args) {
+//	  Scanner scan=new Scanner(System.in);
+//	  System.out.println("Enter a number");
+	  int x=11;
+	  char ch='A';
+	  for(int i=1;i<=5;i++) {
+		  for(int j=1;j<=5;j++) {
+			if(i>=j) {
+				System.out.print(" "+x+" ");
+				x++;
+			}
+			else {
+				System.out.print(" "+ch+" ");
+				ch++;
+				
+			}
+		  }
+		  System.out.println(" ");
+	  }
+  }
+}
+

@@ -1,0 +1,15 @@
+package package1;
+
+public class DataType_Range 
+{
+   public static void main(String[] args) 
+   {
+	  System.out.println("Integer min_value:"+Integer.MIN_VALUE);
+	  System.out.println("Integer max _value"+Integer.MAX_VALUE);
+	  System.out.println("Integer _bytes :"+Integer.SIZE);
+	  
+	  System.out.println("Double min_value:"+Double.MIN_VALUE);
+	  System.out.println("Double  max _value:"+Double.MAX_VALUE);
+	  System.out.println("Double  _bytes :"+Double.SIZE);
+   }
+}

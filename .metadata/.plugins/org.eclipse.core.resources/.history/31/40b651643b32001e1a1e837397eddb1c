@@ -1,0 +1,16 @@
+package package1;
+
+import java.util.Scanner;
+
+public class AreaOfTriangle 
+{
+  public static void main(String[] args) 
+  {
+	  Scanner scan=new Scanner(System.in);
+	  float area;
+	  System.out.println("Enter base and Height");
+	  float base=scan.nextFloat();
+	  float height=scan.nextFloat();
+	  System.out.println("Arae of Triagle :"+base*height*0.5f);
+  }
+}

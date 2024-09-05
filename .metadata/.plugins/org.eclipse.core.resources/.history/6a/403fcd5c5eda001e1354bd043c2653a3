@@ -1,0 +1,23 @@
+package threadPractice;
+
+public class BotwiseOperaters {
+   public static void main(String[] args) {
+	 int x=10;
+	 int y=6;
+	 int z=x&y;
+	 System.out.println("x&y="+z);
+	 int m=x|y;
+	 System.out.println("x|y"+m);
+	 int n=x^y;
+	 System.out.println("x^y"+n);
+	  
+	 // int binary form
+//	 int m=0b1010;
+//	 int n=0b110;
+//	 int o=m&n;
+//	 System.out.println(o);
+	 int p=0b1000;
+	 int q=p<<1;
+	 System.out.println("Left shift by 1 of 8 binary"+q);
+}
+}
